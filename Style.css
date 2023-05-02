@@ -1,0 +1,269 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(167, 127, 101);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  line-height: 2.5rem;
+  margin-top: -3rem;
+  margin-bottom: -10rem;
+}
+
+.menu a {
+  color: #deb887;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  margin: 5rem;
+  font-size: 1.5rem;
+}
+
+.menu a:hover {
+  color: #deb887;
+}
+
+.menu p {
+  text-decoration: none;
+  color: #deb887;
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+.menu ul {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.bckgrnd {
+  background-image: linear-gradient(
+    rgba(236, 232, 226, 0.719),
+    rgba(77, 77, 69, 0.5)
+    ),
+    url(images.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 110vh;
+}
+
+
+.opening p {
+  line-height: 7rem;
+  font-size: 7.5rem;
+  margin-top: 15%;
+  margin-left: 70%;
+  color:#deb887
+}
+
+.options {
+  height: auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2px 10px;
+}
+
+.options p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.options h3 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.options h3 > a {
+  color: #deb887;
+}
+
+
+.welcome {
+  text-align: center;
+  justify-content: center;
+  margin: 9rem;
+  font-size: 1.5rem;
+}
+
+.welcome h1 {
+  font-size: 5rem;
+  color: #deb887;
+}
+
+.welcome h2 {
+  font-size: 3rem;
+  margin-top: -2rem;
+}
+
+.inquiry h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: #deb887;
+  font-weight: bold;
+}
+
+.inquiry p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+.info2{
+  position:absolute ;
+ width: 100%;
+ height: 40px;
+ text-align: center;
+ padding: 5px;
+bottom: 0;
+ background-color: #deb887;
+}
+.info2 p {
+  font-size: 1rem;
+}
+
+.info {
+  padding-top: 500rem; 
+ width: 100%;
+ height: 40px;
+ text-align: center;
+ padding: 5px;
+bottom: 0;
+ background-color: #deb887;
+}
+
+.info p {
+  font-size: 1rem;
+}
+
+/* Contact page  */
+
+.skybk {
+  background-image: linear-gradient(
+    rgba(25, 22, 18, 0.719),
+    rgba(17, 17, 16, 0.5)
+    ),
+    url(sky.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 110vh;
+}
+ 
+
+.gh h3 {
+  line-height: 6rem;
+  font-size: 5rem;
+  padding-top: 10%; 
+  padding-left: 30%; 
+  text-align: center;
+  color:#deb887
+}
+.gh p{ 
+ line-height: 3rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* service page  */
+
+.pics{
+  padding-top: 200px;
+  width:100%;
+}
+
+
+.pics img{
+margin-top: 10px;
+margin-right: 20px;
+margin-bottom: 30px;
+margin-left: 40px;
+border-radius: 8px;
+ width: 25rem;
+height:15rem;
+}
+
+
+/* form contact page Contact */
+.HI{
+  margin-top:200px;
+position: absolute;
+width: 100%;
+height: 300px;
+  text-align: center;
+ font-size: 40px}
+
+.formdiv {
+  padding-top:100px;
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+
+.reg1{
+  position: absolute;
+  width: 40rem;
+  height: 15rem;
+   margin-left:12px;
+
+}
+.reg2{
+  position: absolute;
+left:65%;
+  width: 30rem;
+  height: 5rem;
+}
+
+input[type=text] {
+  width: 30%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=number] {
+  width: 30%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=password] {
+  width: 30%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+background-color: #dac380;
+color: rgb(68, 43, 7);
+padding: 1px 10px;
+border: none;
+cursor: pointer;
+width: 50px;
+height:20px;
+border-radius: 10%;
+
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+opacity: 0.8;
+}
